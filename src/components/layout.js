@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 
 import Navbar from "./Globals/navbar/Navbar"
+import Footer from "./Globals/Footer"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -9,6 +10,7 @@ const Layout = ({ children }) => {
     <>
       <Navbar />
       {children}
+      <Footer />
     </>
   )
 }
